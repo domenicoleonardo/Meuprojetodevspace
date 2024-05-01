@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/image_background"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/leonardo"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="100dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora IMC"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:fontFamily="@font/boris1312"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preencha todos os campos para calcular seu IMC"
+        android:fontFamily="@font/pequeno"
+        android:textColor="#000000"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/edttext_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_marginTop="16dp"
+        android:maxLength="5"
+        android:hint="Digite seu peso (kg)"
+        android:fontFamily="@font/pequeno"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edttext_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttext_peso"
+        android:layout_marginTop="16dp"
+        android:maxLength="5"
+        android:hint="Digite sua altura (m)"
+        android:fontFamily="@font/pequeno"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btncCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:text="CALCULAR"
+        android:textColor="#000000"
+        android:background="#6c8eac"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/boris131202"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+     <color name="red">#FFCF2929</color>
+    <color name="leo">#F4EDE1</color>
+    <color name="leo2">#2B4937</color>
+    <color name="marijuana">#000A13</color>
+    <color name="marijuana2">#78C586</color>
+    <color name="background_color">#2A2A2A</color>
+    <color name="figma">#211D1D</color>
+    <color name="abelha">#FFB267</color>
+    <color name="calcinha">#9FCDD6</color>
+    <color name="calcinha2">#6c8eac</color>
+
+
+
+
+
+
+</resources>
